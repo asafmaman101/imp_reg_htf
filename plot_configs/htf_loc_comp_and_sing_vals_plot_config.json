@@ -1,0 +1,183 @@
+{
+  "ax_configs": [
+    {
+      "experiment_configs": [
+        {
+          "checkpoint_path": "",
+          "metric_names": [
+            "l_0_f_0_1_top_0_local_comp_norm",
+            "l_0_f_0_1_top_1_local_comp_norm",
+            "l_0_f_0_1_top_2_local_comp_norm",
+            "l_0_f_0_1_top_3_local_comp_norm",
+            "l_0_f_0_1_top_4_local_comp_norm",
+            "l_0_f_0_1_top_5_local_comp_norm",
+            "l_0_f_0_1_top_6_local_comp_norm",
+            "l_0_f_0_1_top_7_local_comp_norm",
+            "l_0_f_0_1_top_8_local_comp_norm",
+            "l_0_f_0_1_top_9_local_comp_norm"
+          ],
+          "labels": null,
+          "colors": "summer",
+          "linestyles": null
+        }
+      ],
+      "start_iter": 0,
+      "max_iter": -1,
+      "min_loss": null,
+      "loss_metric_name": "",
+      "title": "node $\\{ 1, 2 \\}$",
+      "y_label": "local component norms",
+      "y_top_lim": null,
+      "y_bottom_lim": null,
+      "y_ticks": null,
+      "y_ticks_labels": null,
+      "x_label": "iterations",
+      "x_ticks": null,
+      "x_ticks_labels": null,
+      "x_tight": true,
+      "plot_linewidth": 1.5,
+      "title_font_size": 12,
+      "y_label_font_size": 11,
+      "x_label_font_size": 11,
+      "ticks_font_size": 9,
+      "legend_font_size": 10
+    },
+    {
+      "experiment_configs": [
+        {
+          "checkpoint_path": "",
+          "metric_names": [
+            "l_1_f_0_1_top_0_local_comp_norm",
+            "l_1_f_0_1_top_1_local_comp_norm",
+            "l_1_f_0_1_top_2_local_comp_norm",
+            "l_1_f_0_1_top_3_local_comp_norm",
+            "l_1_f_0_1_top_4_local_comp_norm",
+            "l_1_f_0_1_top_5_local_comp_norm",
+            "l_1_f_0_1_top_6_local_comp_norm",
+            "l_1_f_0_1_top_7_local_comp_norm",
+            "l_1_f_0_1_top_8_local_comp_norm",
+            "l_1_f_0_1_top_9_local_comp_norm"
+          ],
+          "labels": null,
+          "colors": "summer",
+          "linestyles": null
+        }
+      ],
+      "start_iter": 0,
+      "max_iter": -1,
+      "min_loss": null,
+      "loss_metric_name": "",
+      "title": "node $\\{ 1, 2, 3 , 4 \\}$",
+      "y_label": "local component norms",
+      "y_top_lim": null,
+      "y_bottom_lim": null,
+      "y_ticks": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "y_ticks_labels": null,
+      "x_label": "iterations",
+      "x_ticks": null,
+      "x_ticks_labels": null,
+      "x_tight": true,
+      "plot_linewidth": 1.5,
+      "title_font_size": 12,
+      "y_label_font_size": 11,
+      "x_label_font_size": 11,
+      "ticks_font_size": 9,
+      "legend_font_size": 10
+    },
+    {
+      "experiment_configs": [
+        {
+          "checkpoint_path": "",
+          "metric_names": [
+            "mat_0_1_sing_val_0",
+            "mat_0_1_sing_val_1",
+            "mat_0_1_sing_val_2",
+            "mat_0_1_sing_val_3",
+            "mat_0_1_sing_val_4",
+            "mat_0_1_sing_val_5",
+            "mat_0_1_sing_val_6",
+            "mat_0_1_sing_val_7",
+            "mat_0_1_sing_val_8",
+            "mat_0_1_sing_val_9"
+          ],
+          "labels": null,
+          "colors": "viridis",
+          "linestyles": null
+        }
+      ],
+      "start_iter": 0,
+      "max_iter": -1,
+      "min_loss": null,
+      "loss_metric_name": "",
+      "title": "matricization $\\{ 1, 2 \\}$",
+      "y_label": "singular values",
+      "y_top_lim": null,
+      "y_bottom_lim": null,
+      "y_ticks": null,
+      "y_ticks_labels": null,
+      "x_label": "iterations",
+      "x_ticks": null,
+      "x_ticks_labels": null,
+      "x_tight": true,
+      "plot_linewidth": 1.5,
+      "title_font_size": 12,
+      "y_label_font_size": 11,
+      "x_label_font_size": 11,
+      "ticks_font_size": 9,
+      "legend_font_size": 10
+    },
+    {
+      "experiment_configs": [
+        {
+          "checkpoint_path": "",
+          "metric_names": [
+            "mat_0_2_sing_val_0",
+            "mat_0_2_sing_val_1",
+            "mat_0_2_sing_val_2",
+            "mat_0_2_sing_val_3",
+            "mat_0_2_sing_val_4",
+            "mat_0_2_sing_val_5",
+            "mat_0_2_sing_val_6",
+            "mat_0_2_sing_val_7",
+            "mat_0_2_sing_val_8",
+            "mat_0_2_sing_val_9"
+          ],
+          "labels": null,
+          "colors": "viridis",
+          "linestyles": null
+        }
+      ],
+      "start_iter": 0,
+      "max_iter": -1,
+      "min_loss": null,
+      "loss_metric_name": "",
+      "title": "matricization $\\{ 1, 3 \\}$",
+      "y_label": "singular values",
+      "y_top_lim": null,
+      "y_bottom_lim": null,
+      "y_ticks": null,
+      "y_ticks_labels": null,
+      "x_label": "iterations",
+      "x_ticks": null,
+      "x_ticks_labels": null,
+      "x_tight": true,
+      "plot_linewidth": 1.5,
+      "title_font_size": 12,
+      "y_label_font_size": 11,
+      "x_label_font_size": 11,
+      "ticks_font_size": 9,
+      "legend_font_size": 10
+    }
+  ],
+  "title": "",
+  "title_font_size": 13,
+  "subplot_width": 8.3,
+  "subplot_height": 2,
+  "pad_width": 1.5,
+  "save_plot_to": "htf_loc_comp_and_sing_vals.png"
+}

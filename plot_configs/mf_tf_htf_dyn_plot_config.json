@@ -1,0 +1,136 @@
+{
+  "ax_configs": [
+    {
+      "experiment_configs": [
+        {
+          "checkpoint_path": "",
+          "metric_names": [
+            "singular_value_0",
+            "singular_value_1",
+            "singular_value_2",
+            "singular_value_3",
+            "singular_value_4",
+            "singular_value_5",
+            "singular_value_6",
+            "singular_value_7",
+            "singular_value_8",
+            "singular_value_9"
+          ],
+          "labels": null,
+          "colors": "summer",
+          "linestyles": null
+        }
+      ],
+      "start_iter": 0,
+      "max_iter": -1,
+      "min_loss": null,
+      "loss_metric_name": "",
+      "title": "matrix factorization",
+      "y_label": "singular values",
+      "y_top_lim": null,
+      "y_bottom_lim": null,
+      "y_ticks": null,
+      "y_ticks_labels": null,
+      "x_label": "iterations",
+      "x_ticks": null,
+      "x_ticks_labels": null,
+      "x_tight": true,
+      "plot_linewidth": 1.5,
+      "title_font_size": 12,
+      "y_label_font_size": 11,
+      "x_label_font_size": 11,
+      "ticks_font_size": 9,
+      "legend_font_size": 10
+    },
+    {
+      "experiment_configs": [
+        {
+          "checkpoint_path": "",
+          "metric_names": [
+            "top_component_0_fro_norm",
+            "top_component_1_fro_norm",
+            "top_component_2_fro_norm",
+            "top_component_3_fro_norm",
+            "top_component_4_fro_norm",
+            "top_component_5_fro_norm",
+            "top_component_6_fro_norm",
+            "top_component_7_fro_norm",
+            "top_component_8_fro_norm",
+            "top_component_9_fro_norm"
+          ],
+          "labels": null,
+          "colors": "summer",
+          "linestyles": null
+        }
+      ],
+      "start_iter": 0,
+      "max_iter": -1,
+      "min_loss": null,
+      "loss_metric_name": "",
+      "title": "tensor factorization",
+      "y_label": "component norms",
+      "y_top_lim": null,
+      "y_bottom_lim": null,
+      "y_ticks": null,
+      "y_ticks_labels": null,
+      "x_label": "iterations",
+      "x_ticks": null,
+      "x_ticks_labels": null,
+      "x_tight": true,
+      "plot_linewidth": 1.5,
+      "title_font_size": 12,
+      "y_label_font_size": 11,
+      "x_label_font_size": 11,
+      "ticks_font_size": 9,
+      "legend_font_size": 10
+    },
+    {
+      "experiment_configs": [
+        {
+          "checkpoint_path": "",
+          "metric_names": [
+            "l_1_f_0_1_top_0_local_comp_norm",
+            "l_1_f_0_1_top_1_local_comp_norm",
+            "l_1_f_0_1_top_2_local_comp_norm",
+            "l_1_f_0_1_top_3_local_comp_norm",
+            "l_1_f_0_1_top_4_local_comp_norm",
+            "l_1_f_0_1_top_5_local_comp_norm",
+            "l_1_f_0_1_top_6_local_comp_norm",
+            "l_1_f_0_1_top_7_local_comp_norm",
+            "l_1_f_0_1_top_8_local_comp_norm",
+            "l_1_f_0_1_top_9_local_comp_norm"
+          ],
+          "labels": null,
+          "colors": "summer",
+          "linestyles": null
+        }
+      ],
+      "start_iter": 0,
+      "max_iter": -1,
+      "min_loss": null,
+      "loss_metric_name": "",
+      "title": "hierarchical tensor factorization",
+      "y_label": "local component norms",
+      "y_top_lim": null,
+      "y_bottom_lim": null,
+      "y_ticks": null,
+      "y_ticks_labels": null,
+      "x_label": "iterations",
+      "x_ticks": null,
+      "x_ticks_labels": null,
+      "x_tight": true,
+      "plot_linewidth": 1.5,
+      "title_font_size": 12,
+      "y_label_font_size": 11,
+      "x_label_font_size": 11,
+      "ticks_font_size": 9,
+      "legend_font_size": 10
+    }
+  ],
+  "title": "",
+  "title_font_size": 13,
+  "subplot_width": 7.8,
+  "subplot_height": 2,
+  "pad_width": 1.5,
+  "save_plot_to": "mf_tf_htf_dyn.png"
+}
