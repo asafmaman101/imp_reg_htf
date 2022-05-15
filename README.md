@@ -1,5 +1,5 @@
-# Implicit Regularization in Hierarchical Tensor Factorization and Deep Convolutional Neural Networks.
-Code, based on the PyTorch framework, for reproducing experiments from the paper [Implicit Regularization in Hierarchical Tensor Factorization and Deep Convolutional Neural Networks](https://arxiv.org/abs/2201.11729).
+# Implicit Regularization in Hierarchical Tensor Factorization and Deep Convolutional Neural Networks (ICML 2022)
+Code, based on the PyTorch framework, for reproducing experiments from the paper [Implicit Regularization in Hierarchical Tensor Factorization and Deep Convolutional Neural Networks](https://arxiv.org/abs/2201.11729) (ICML 2022).
 
 ## Install Requirements
 
@@ -286,7 +286,7 @@ For citing the paper, you can use:
 @article{razin2022implicit,
   title={Implicit Regularization in Hierarchical Tensor Factorization and Deep Convolutional Neural Networks},
   author={Razin, Noam and Maman, Asaf and Cohen, Nadav},
-  journal={arXiv preprint arXiv:2201.11729},
+  journal={International Conference on Machine Learning (ICML)},
   year={2022}
 }
 ```
